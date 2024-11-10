@@ -60,6 +60,10 @@ body {
     height: 513px;
 }
 
+img.hero__img {
+    width: 100%;
+}
+
 .hero__action {
     position: absolute;
     display: flex;
