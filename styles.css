@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+body {
+    background: #F4F3F3;
+    width: 100%;
+    height: 100%;
+}
+
+.main__header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: baseline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+    background: white;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header__logo {
+    grid-column: 3;
+    text-align: center;
+}
+
+.header__logo a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.header__links {
+    grid-column: 5;
+    justify-self: center;
+}
+
+.header__links a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.header__links a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    height: 513px;
+}
+
+.hero__action {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 400;
+    margin-top: 325px;
+    width: 1405px;
+    height: 150px;
+    font-size: 90px;
+    background: rgba(101, 131, 157, 0.50);
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.card__model {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 160px;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 100px;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card__title {
+    font-size: 60px;
+}
+
+.card__description {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.card__soho {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 240px;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 100px;
+}
+
+.main__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #DCDCDC;
+}
+
+.main__footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    font-size: 20px;
+}
+
+.main__footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.main__footer a:hover {
+    text-decoration: underline;
+}
