@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "image": "img/margiela-gat.png",
+      "title": "MAISON MARGIELA",
+      "price": "$670",
+      "description": "Maison Margiela's 'Replica' sneakers are modelled after Austrian running shoes from the '70s. Made from a combination of white leather and light-grey suede, this pair has gripped rubber soles and internal straps so they fit securely."
+    },
+    {
+      "image": "img/kapital-pants.png",
+      "title": "KAPITAL",
+      "price": "$490",
+      "description": "KAPITAL’s designs are a cool way to update your wardrobe. These 'Katsuragi' trousers are cut from cotton-twill with panelled double knees that nod to utility styles. The thick, woven drawstring adds a point of contrast."
+    },
+    {
+      "image": "img/balenciaga-hoodie.png",
+      "title": "BALENCIAGA",
+      "price": "$3650",
+      "description": "Balenciaga's zip-up hoodie has contrasting panels and textured ribbing inspired by classic motocross styles. Printed with a logo front and centre, it's made from heavyweight cotton-jersey and faded to look vintage."
+    },
+    {
+      "image": "img/salomon-xt6.png",
+      "title": "SALOMON",
+      "price": "$200",
+      "description": "Salomon's innovative footwear is designed with world-class performance in mind.\n- First introduced in 2013, these updated 'XT-6' sneakers have streamlined mesh uppers that are reinforced with TPU for durability\n- Agile Chassis™ system works alongside Contagrip® soles for stability and maximum grip"
+    },
+    {
+      "image": "img/acne-blue-jeans.png",
+      "title": "ACNE STUDIOS",
+      "price": "$750",
+      "description": "Acne Studios' faded '2023M' jeans are heavily whiskered to create the look of rippling water. Detailed with signature pink bartack stitching at the back, they're cut for a wide-leg fit from organic denim and have elongated legs meant to pool at the floor."
+    },
+    {
+      "image": "img/celine-shirt.png",
+      "title": "CELINE HOMME",
+      "price": "$670",
+      "description": "Designed with contrasting raglan sleeves and a slightly cropped hem, CELINE HOMME's T-shirt takes cues from vintage sportswear. It's cut for a slim fit from cotton-jersey and printed with the moniker across the chest."
+    },
+    {
+      "image": "img/loewe-beanie.png",
+      "title": "LOEWE",
+      "price": "$380",
+      "description": "The turned-up cuff on Loewe's beanie is embroidered with the house's name in a blurred font. Naturally warm, it's knitted from medium-weight wool in a chunky ribbed stitch."
+    },
+    {
+      "image": "img/margiela-tabi.png",
+      "title": "MAISON MARGIELA",
+      "price": "$1350",
+      "description": "Maison Margiela's cult 'Tabi' split-toe shoes pay homage to traditional Japanese worker footwear dating back to the 15th century. These Chelsea boots are crafted from patent-leather and set on chunky lug soles that provide plenty of traction. Wear yours with tailoring or denim."
+    },
+    {
+      "image": "img/acne-jacket.png",
+      "title": "ACNE STUDIOS",
+      "price": "$2200",
+      "description": "Acne Studios' leather jacket has a crumpled appearance that makes it feel authentically lived-in. It's detailed with a point collar, two welt pockets and a streamlined concealed zipped placket."
+    },
+    {
+      "image": "img/acne-jeans-black.png",
+      "title": "ACNE STUDIOS",
+      "price": "$500",
+      "description": "Acne Studios' wide-leg '1981M' jeans are designed to sit low on the waist. They're cut from pure denim and have a black wash with light fading and whiskering."
+    },
+    {
+      "image": "img/visvim-hoodie.png",
+      "title": "VISVIM",
+      "price": "$860",
+      "description": "visvim's hoodie is made from Sea Island cotton-jersey - a material prized for its resilience and soft handle. It's cut in an 'Ultimate Jumbo' fit and backed in warm fleece.\u2028"
+    },
+    {
+      "image": "img/bottega-boots.png",
+      "title": "BOTTEGA VENETA",
+      "price": "$1700",
+      "description": "Bottega Veneta reinterprets a classic with its modernist sensibility. Riffing on military styles, these boots are made from polished black leather and finished with oversized pull tabs and chunky lug soles."
+    }
+  ]
+}
