@@ -57,7 +57,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 140px;
-    height: 513px;
+    height: 515px;
 }
 
 img.hero__img {
@@ -84,8 +84,9 @@ img.hero__img {
     display: flex;
     margin-top: 80px;
     margin-bottom: 160px;
-    margin-left: 80px;
-    margin-right: 80px;
+    width: 1760px;
+    margin-left: auto;
+    margin-right: auto;;
     gap: 100px;
 }
 
@@ -109,8 +110,9 @@ h1.card__title {
     display: flex;
     margin-top: 80px;
     margin-bottom: 240px;
-    margin-left: 80px;
-    margin-right: 80px;
+    width: 1760px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 100px;
 }
 
@@ -147,9 +149,10 @@ h1.card__title {
     flex-direction: column;
     margin-top: 140px;
     gap: 40px;
-    margin-left: 390px;
-    margin-right: 390px;
+    width: 1140px;
     margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1.card__collection-title {
@@ -169,6 +172,9 @@ p.card__collection-description {
     flex-direction: row;
     gap: 40px;
     justify-content: center;
+    width: 1570px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product-grid {
@@ -176,8 +182,9 @@ p.card__collection-description {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     margin-top: 80px;
-    margin-left: 175px;
-    margin-right: 175px;
+    width: 1570px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 20px;
     margin-bottom: 400px;
 }
