@@ -56,8 +56,8 @@ body {
 .hero {
     display: flex;
     justify-content: center;
-    margin-top: 140px;
-    height: 515px;
+    margin-top: 110px;
+    height: 400px;
 }
 
 img.hero__img {
@@ -70,7 +70,7 @@ img.hero__img {
     justify-content: center;
     align-items: center;
     z-index: 400;
-    margin-top: 325px;
+    margin-top: 200px;
     max-width: 75vw;
     height: 150px;
     font-size: 90px;
@@ -89,11 +89,16 @@ img.hero__img {
 .card__model {
     display: flex;
     margin-top: 80px;
-    margin-bottom: 160px;
+    margin-bottom: 80px;
     max-width: 90vw;
     margin-left: auto;
     margin-right: auto;;
     gap: 100px;
+}
+
+.card__model img {
+    height: auto;
+    width: 600px;
 }
 
 .card__text {
@@ -103,12 +108,12 @@ img.hero__img {
 }
 
 h1.card__title {
-    font-size: 60px;
+    font-size: 48px;
     font-weight: normal;
 }
 
 .card__description {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: lighter;
 }
 
@@ -120,6 +125,11 @@ h1.card__title {
     margin-left: auto;
     margin-right: auto;
     gap: 100px;
+}
+
+.card__soho img {
+    height: auto;
+    width: 600px;
 }
 
 .main__footer {
