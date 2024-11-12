@@ -61,7 +61,7 @@ body {
 }
 
 img.hero__img {
-    min-width: 100%;
+    width: 100%;
 }
 
 .hero__action {
@@ -73,7 +73,7 @@ img.hero__img {
     margin-top: 200px;
     max-width: 75vw;
     height: 150px;
-    font-size: 90px;
+    font-size: 72px;
     background: rgba(101, 131, 157, 0.50);
     text-decoration: none;
     color: white;
@@ -96,10 +96,6 @@ img.hero__img {
     gap: 100px;
 }
 
-.card__model img {
-    height: auto;
-    width: 600px;
-}
 
 .card__text {
     display: flex;
@@ -127,7 +123,7 @@ h1.card__title {
     gap: 100px;
 }
 
-.card__soho img {
+.card__img-home img{
     height: auto;
     width: 600px;
 }
@@ -290,4 +286,120 @@ h1.contact__title {
     height: 40px;
     border: none;
     border-radius: 5px;
+}
+
+/*Home Page Mobile*/
+@media screen and (max-width: 809px) {
+    .header__logo a{
+        display: flex;
+        font-size: 20px;
+    }
+
+    .header__links a{
+        font-size: 12px;
+    }
+
+    .hero{
+        height: 300px;
+        margin-top: 140px;
+    }
+
+    .hero__action {
+        text-align: center;
+        margin-top: 150px;
+        font-size: 32px;
+        height: 80px;
+    }
+
+    .card__model {
+        flex-direction: column-reverse;
+    }
+
+    .card__text {
+        text-align: center;
+    }
+
+    h1.card__title {
+        font-size: 24px;
+    }
+
+    p.card__description {
+        font-size: 16px;
+    }
+
+    .card__soho {
+        flex-direction: column;
+    }
+
+    .card__img-home {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__img-home img {
+        width: 300px;
+    }
+
+    .main__footer li{
+        font-size: 12px;
+    }
+
+    .main__footer ul{
+        justify-content: center;
+        width: 80%;
+    }
+}
+
+/*Home Page Tablet*/
+@media screen and (max-width: 1339px) and (min-width: 810px) {
+    .header__logo a{
+        display: flex;
+        font-size: 28px;
+    }
+
+    .header__links a{
+        font-size: 14px;
+    }
+
+    .hero{
+        height: 300px;
+        margin-top: 140px;
+    }
+
+    .hero__action {
+        text-align: center;
+        margin-top: 150px;
+        font-size: 46px;
+        height: 90px;
+    }
+
+    .card__text {
+        text-align: center;
+    }
+
+    h1.card__title {
+        font-size: 28px;
+    }
+
+    p.card__description {
+        font-size: 18px;
+    }
+
+
+    .card__img-home {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__img-home img {
+        width: 400px;
+    }
+
+    .main__footer li{
+        font-size: 12px;
+    }
+
+    .main__footer ul{
+        gap: 20px
+    }
 }
