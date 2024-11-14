@@ -329,6 +329,8 @@ h1.contact__title {
 
     .card__soho {
         flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px
     }
 
     .card__img-home {
@@ -337,7 +339,10 @@ h1.contact__title {
     }
 
     .card__img-home img {
-        width: 300px;
+        object-fit: contain;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .main__footer li {
