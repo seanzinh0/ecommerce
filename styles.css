@@ -313,6 +313,8 @@ h1.contact__title {
 
     .card__model {
         flex-direction: column-reverse;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .card__text {
