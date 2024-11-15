@@ -410,9 +410,8 @@ h1.contact__title {
     }
 
     .card__product img{
-        object-fit: contain;
         width: 100%;
-        height: 200px;
+        height: auto;
     }
 
     h1.card__product-title {
@@ -558,8 +557,8 @@ h1.contact__title {
 
     .card__product img{
         object-fit: contain;
-        width: 100%;
-        height: 250px;
+        width: 200px;
+        height: auto;
     }
 
     h1.card__product-title {
