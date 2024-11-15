@@ -174,7 +174,7 @@ h1.card__collection-title {
 }
 
 p.card__collection-description {
-   font-size: 24px;
+   font-size: 20px;
     font-weight: lighter;
     text-align: center;
 }
@@ -223,19 +223,19 @@ p.card__collection-description {
 }
 
 h1.card__product-title {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: normal;
     text-align: center;
 }
 
 p.card__product-price {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: lighter;
     text-align: center;
 }
 
 p.card__product-description {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: lighter;
     text-align: center;
 }
