@@ -198,16 +198,21 @@ p.card__collection-description {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     margin-top: 80px;
-    max-width: 80vw;
+    max-width: 90vw;
     margin-left: auto;
     margin-right: auto;
-    gap: 20px;
+    gap: 40px;
     margin-bottom: 400px;
 }
 
 .card__product {
     display: flex;
     gap: 20px;
+}
+
+.card__product img {
+    height: auto;
+    width: 100%;
 }
 
 .card__product-text {
