@@ -580,6 +580,10 @@ h1.contact__title {
     #sort {
         font-size: 14px;
     }
+
+    #submit__btn {
+        height: 40px;
+    }
 }
 
 /*Home Page Tablet*/
