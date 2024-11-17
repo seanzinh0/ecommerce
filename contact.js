@@ -58,3 +58,9 @@ contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
     }
 });
+
+//allows for reason to be set to default when form submit or page loads
+window.addEventListener("load", () => {
+    let reasons = document.getElementById("reasons");
+    reasons.value = "default";
+})
