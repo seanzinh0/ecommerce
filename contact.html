@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="contact.js" defer></script>
     <title>Contact Us</title>
 </head>
 <body>
@@ -21,15 +22,16 @@
         <img src="img/contact.png" alt="japandi-design">
     </div>
     <div class="card__contact-form">
-        <form class="contact-form" action="">
+        <form class="contact-form" action="#" method="post">
             <label for="firstname">First Name</label>
             <input type="text" placeholder="Enter your first name" id="firstname" name="firstname">
             <label for="lastname">Last Name</label>
             <input type="text" placeholder="Enter your last name" id="lastname" name="lastname">
             <label for="email">Email</label>
-            <input type="text" placeholder="Enter your email" id="email" name="email">
+            <input type="email" placeholder="Enter your email" id="email" name="email">
             <label for="reasons">Reason</label>
             <select id="reasons" name="reasons">
+                <option value="default" disabled selected id="default-reason">Select</option>
                 <option value="support">Customer Support</option>
                 <option value="returns">Returns or Exchanges</option>
                 <option value="care">Garment Care</option>
