@@ -286,6 +286,7 @@ h1.contact__title {
     border: #DCDCDC 1px solid;
     outline: none;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 .contact-form input[type=email], .contact-form textarea {
@@ -295,6 +296,12 @@ h1.contact__title {
     border: #DCDCDC 1px solid;
     outline: none;
     border-radius: 5px;
+    font-size: 16px;
+}
+
+#reasons {
+    font-size: 16px;
+    padding-left: 10px;
 }
 
 #message {
