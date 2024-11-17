@@ -394,9 +394,6 @@ h1.contact__title {
 
 /*Home Page Mobile*/
 @media screen and (max-width: 809px) {
-    .main__header {
-        padding-right: 10px
-    }
     .header__logo a{
         display: flex;
         font-size: 20px;
