@@ -264,6 +264,7 @@ h1.contact__title {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     margin-top: 60px;
     margin-bottom: 80px;
 }
@@ -709,10 +710,6 @@ h1.contact__title {
 
     h1.contact__title {
         font-size: 32px;
-    }
-
-    .card__contact img{
-        margin-top: 20px;
     }
 
     .grid-wrap-contact {
