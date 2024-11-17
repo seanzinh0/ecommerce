@@ -394,17 +394,20 @@ h1.contact__title {
 
 /*Home Page Mobile*/
 @media screen and (max-width: 809px) {
+    .main__header {
+        padding-right: 10px
+    }
     .header__logo a{
         display: flex;
         font-size: 20px;
     }
 
     .header__links a{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .header__links-shop a {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .hero{
