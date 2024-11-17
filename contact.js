@@ -7,7 +7,6 @@ contactForm.addEventListener('submit', (e) => {
     let lastName = document.getElementById("lastname");
     let email = document.getElementById("email");
     let reasons = document.getElementById("reasons");
-    let defaultReason = document.getElementById("default-reason");
     let message = document.getElementById("message");
 
     //remove error class to clear style when new form is open
@@ -15,7 +14,6 @@ contactForm.addEventListener('submit', (e) => {
     lastName.classList.remove("error")
     email.classList.remove("error")
     message.classList.remove("error")
-    defaultReason.classList.remove("error")
 
     //tracks if form is valid
     let isValid = true;
@@ -52,10 +50,8 @@ contactForm.addEventListener('submit', (e) => {
     }
     //checks to see if reasons is on default and adds error style and add isValid to false
     if (reasons.value === "" || reasons.value === "default") {
-        defaultReason.classList.add("error")
+        alert("Select a proper reason")
         isValid = false;
-    }else {
-        defaultReason.classList.remove("error")
     }
     //if isValid is false prevent default
     if (!isValid) {
