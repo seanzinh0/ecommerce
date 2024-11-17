@@ -61,8 +61,10 @@ body {
     height: 400px;
 }
 
+
 img.hero__img {
     width: 100%;
+    object-fit: cover;
 }
 
 .hero__action {
@@ -327,10 +329,6 @@ h1.contact__title {
         margin-top: 120px;
     }
 
-    .hero img {
-        object-fit: cover;
-    }
-
     .hero__action {
         text-align: center;
         margin-top: 150px;
@@ -500,10 +498,6 @@ h1.contact__title {
     .hero{
         height: 300px;
         margin-top: 120px;
-    }
-
-    .hero img {
-        object-fit: cover;
     }
 
     .hero__action {
