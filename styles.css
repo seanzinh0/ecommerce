@@ -48,7 +48,8 @@ body {
     justify-self: center;
 }
 
-.header__links-shop a { color: black;
+.header__links-shop a {
+    color: black;
     text-decoration: none;
     font-size: 20px;
     font-weight: lighter;
@@ -614,11 +615,11 @@ h1.contact__title {
     }
 
     .header__links a{
-        font-size: 14px;
+        font-size: 16px;
     }
 
-    .header__links-shop {
-        font-size: 14px;
+    .header__links-shop a{
+        font-size: 16px;
     }
 
     .hero{
