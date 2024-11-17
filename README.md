@@ -18,7 +18,7 @@ first name, last name, email, reason, and a message. The form was validated usin
 on submit it checks that no values are empty and uses regex for the email. If an input is empty the placeholder text will become red.
 At the bottom of the contact page is also some additional information that a customer can use.
 
-The site is fully responsive and I used 390px, 810px, and 1400px breakpoints. These were the ones standard when I imported my
+The site is fully responsive and I used 390px, 800px, and 1400px breakpoints. These were the ones standard when I imported my
 figma to framer to see how I wanted to design responsiveness.
 
 I hope that you have enjoyed looking through my site, it was fun designing and producing it!

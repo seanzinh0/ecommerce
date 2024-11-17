@@ -393,7 +393,7 @@ h1.contact__title {
 }
 
 /*Home Page Mobile*/
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 799px) {
     .header__logo a{
         display: flex;
         font-size: 20px;
@@ -613,7 +613,7 @@ h1.contact__title {
 }
 
 /*Home Page Tablet*/
-@media screen and (max-width: 1399px) and (min-width: 810px) {
+@media screen and (max-width: 1399px) and (min-width: 800px) {
     .header__logo a{
         display: flex;
         font-size: 28px;
@@ -768,7 +768,7 @@ h1.contact__title {
     }
 }
 
-@media screen and (max-width: 1299px) and (min-width: 810px) {
+@media screen and (max-width: 1299px) and (min-width: 800px) {
     .card__contact {
         flex-wrap: wrap;
         margin-top: 20px;
