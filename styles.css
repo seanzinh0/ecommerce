@@ -211,6 +211,12 @@ p.card__collection-description {
 .card__product {
     display: flex;
     gap: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card__product:hover {
+    box-shadow: 0 2px 20px #a5a5a5;
+    transform: translateY(-2px);
 }
 
 .card__product img {
