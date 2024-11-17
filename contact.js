@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
     const contactForm = document.querySelector('.contact-form');
     contactForm.addEventListener('submit', (e) => {
         let firstName = document.getElementById("firstname");
@@ -51,4 +50,3 @@ document.addEventListener("DOMContentLoaded", () => {
             e.preventDefault();
         }
     });
-});
