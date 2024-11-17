@@ -401,6 +401,7 @@ h1.contact__title {
 
     .header__links {
         padding-right: 15px;
+        text-align: center;
     }
 
     .header__links a{
