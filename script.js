@@ -52,7 +52,7 @@ sortOptions.addEventListener("change", () => {
            return a.title.localeCompare(b.title); //compare titles
        });
    }else if (sortOptions.value === "z-to-a"){
-       return sortedProducts.sort((a, b) => {
+        sortedProducts.sort((a, b) => {
            return b.title.localeCompare(a.title); //compare titles
        })
    }else if (sortOptions.value === "asc-price"){
