@@ -326,7 +326,7 @@ h1.contact__title {
     margin-top: 40px;
     display: flex;
     justify-content: flex-end;
-    margin-right: 5vw;
+    margin-right: 8vw;
     gap: 10px;
 }
 
@@ -553,6 +553,11 @@ h1.contact__title {
 
     #business-hours li {
         list-style: none;
+    }
+
+    .sort__options {
+        justify-content: center;
+        margin-right: 0;
     }
 }
 
