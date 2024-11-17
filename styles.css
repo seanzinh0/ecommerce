@@ -258,8 +258,8 @@ h1.contact__title {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 80px;
-    margin-bottom: 50vw;
+    margin-top: 60px;
+    margin-bottom: 80px;
 }
 
 .contact-form {
@@ -276,6 +276,7 @@ h1.contact__title {
 .card__img img {
     width: 650px;
     height: 420px;
+    object-fit: cover;
 }
 
 .contact-form input[type=text], .contact-form textarea {
@@ -311,6 +312,34 @@ h1.contact__title {
     justify-content: flex-end;
     margin-right: 5vw;
     gap: 10px;
+}
+
+.grid-wrap-contact {
+    display: grid;
+    grid-template-columns: 25vw 1fr 25vw;
+    margin-bottom: 80px;
+}
+
+.contact__description {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.9;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#customer-support {
+    padding-left: 30px;
+}
+
+#contact-info {
+    list-style: none;
+}
+
+#business-hours li {
+    list-style: none;
 }
 
 /*Home Page Mobile*/
@@ -482,6 +511,33 @@ h1.contact__title {
     .sort__options option{
         font-size: 14px;
     }
+
+    .grid-wrap-contact {
+        display: grid;
+        grid-template-columns: 20px 1fr 20px;
+        margin-bottom: 80px;
+    }
+
+    .contact__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.5;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #customer-support {
+        padding-left: 30px;
+    }
+
+    #contact-info {
+        list-style: none;
+    }
+
+    #business-hours li {
+        list-style: none;
+    }
 }
 
 /*Home Page Tablet*/
@@ -611,6 +667,32 @@ h1.contact__title {
 
     .card__contact img{
         margin-top: 20px;
+    }
+
+    .grid-wrap-contact {
+        display: grid;
+        grid-template-columns: 10vw 1fr 10vw;
+        margin-bottom: 80px;
+    }
+
+    .contact__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.7;
+        font-size: 16px;
+    }
+
+    #customer-support {
+        padding-left: 30px;
+    }
+
+    #contact-info {
+        list-style: none;
+    }
+
+    #business-hours li {
+        list-style: none;
     }
 }
 
