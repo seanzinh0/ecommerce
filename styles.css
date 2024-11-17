@@ -312,9 +312,13 @@ h1.contact__title {
 #submit__btn {
     background: black;
     color: #F4F3F3;
-    height: 40px;
+    height: 600px;
     border: none;
     border-radius: 5px;
+}
+
+#submit__btn:hover {
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .flex-wrap {
