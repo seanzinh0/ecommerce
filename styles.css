@@ -605,6 +605,10 @@ h1.contact__title {
     h1.contact__title {
         font-size: 32px;
     }
+
+    .card__contact img{
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 1299px) and (min-width: 810px) {
