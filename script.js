@@ -1,8 +1,13 @@
 "use strict";
 
+let products = [];
+
 fetch('./data.json')
     .then((response) => response.json())
-    .then((json) => updateUI(json.products));
+    .then((json) => {
+        products = json.products;
+        updateUI(products)
+    });
 
 function updateUI(products) {
     const productGrid = document.querySelector('.product-grid');
@@ -24,3 +29,37 @@ function updateUI(products) {
     });
     productGrid.innerHTML = result;
 }
+
+const sortOptions = document.getElementById("sort");
+const defaultOption = document.getElementById("default__option");
+
+sortOptions.value = defaultOption.value;
+
+sortOptions.addEventListener("change", () => {
+  let sortedProducts = [...products];
+
+   if (sortOptions.value === "a-to-z"){
+       sortedProducts.sort((a, b) => {
+           return a.title.localeCompare(b.title);
+       });
+   }else if (sortOptions.value === "z-to-a"){
+       return sortedProducts.sort((a, b) => {
+           return b.title.localeCompare(a.title);
+       })
+   }else if (sortOptions.value === "asc-price"){
+       sortedProducts.sort((a, b) => {
+           const priceA = parseFloat(a.price.replace(/[$,]/g, ""));
+           const priceB = parseFloat(b.price.replace(/[$,]/g, ""));
+           return priceA - priceB;
+       });
+   }else if (sortOptions.value === "desc-price"){
+       sortedProducts.sort((a, b) => {
+           const priceA = parseFloat(a.price.replace(/[$,]/g, ""));
+           const priceB = parseFloat(b.price.replace(/[$,]/g, ""));
+           return priceB - priceA;
+       });
+   }
+
+   updateUI(sortedProducts);
+});
+

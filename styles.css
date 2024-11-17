@@ -190,7 +190,7 @@ p.card__collection-description {
 
 .gallery img {
     height: auto;
-    width: 300px;
+    width: auto;
 }
 
 .product-grid {
@@ -300,6 +300,14 @@ h1.contact__title {
 .flex-wrap {
     display: flex;
     justify-content: center;
+}
+
+.sort__options {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5vw;
+    gap: 10px;
 }
 
 /*Home Page Mobile*/
@@ -458,6 +466,18 @@ h1.contact__title {
 
     .card__contact-form label{
         font-size: 16px;
+    }
+
+    .sort__options {
+        align-items: center;
+    }
+
+    .sort__options label {
+        font-size: 14px;
+    }
+
+    .sort__options option{
+        font-size: 14px;
     }
 }
 
